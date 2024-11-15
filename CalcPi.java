@@ -1,3 +1,4 @@
+// Computes an approximation of PI.
 public class CalcPi {
     public static void main(String[] args) {
         int number = Integer.parseInt(args[0]);
@@ -13,14 +14,7 @@ public class CalcPi {
         }
         double appr = total * 4;
 
-        System.out.println("pi according to Java: " + Math.PI);
-
-        String approximatedPi = String.format("%.15f", appr).replaceAll("0*$", "");
-
-        if (approximatedPi.endsWith(".")) {
-            approximatedPi = approximatedPi + "0";
-        }
-
-        System.out.printf("pi, approximated: %s\n", approximatedPi);
+        System.out.println("pi according to Java: " + Math.PI); 
+        System.out.println("pi, approximated:     " + appr); 
     }
 }
