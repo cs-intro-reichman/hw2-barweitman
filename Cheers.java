@@ -7,9 +7,9 @@ public class Cheers {
             for (int give = 0; give < num; give++) {
                 String char1 = String.valueOf(word.charAt(give)); 
                 if (letter.indexOf(char1.toUpperCase()) != -1) {
-                    System.out.println("Give me an " + char1 + ": " + char1 + "!");
+                    System.out.println("Give me an " + char1.toUpperCase() + ": " + char1.toUpperCase() + "!");
                 } else {
-                    System.out.println("Give me a  " + char1 + ": " + char1 + "!");
+                    System.out.println("Give me a  " + char1.toUpperCase() + ": " + char1.toUpperCase() + "!");
                 }
             }
             System.out.println("What does that spell?");
