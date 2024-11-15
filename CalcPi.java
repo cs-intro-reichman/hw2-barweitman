@@ -21,6 +21,6 @@ public class CalcPi {
             approximatedPi = approximatedPi + "0";
         }
 
-        System.out.printf("pi, approximated:    %s\n", approximatedPi);
+        System.out.printf("pi, approximated: %s\n", approximatedPi);
     }
 }
